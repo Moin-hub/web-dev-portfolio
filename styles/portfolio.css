@@ -26,6 +26,7 @@
     border-radius: 5px;
 }
 
+
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -152,4 +153,46 @@ background-position: top left, bottom right;
 
 .skills .section-description{
     padding: 30px;
+}
+
+/* Resume styles */
+.resume-column .experience{
+    width: 511px;
+}
+
+.resume-column .experience-title{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+}
+.experience-sub-title{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.experience-title{
+    margin-bottom: 10px;
+}
+.resume .section-title{
+    text-align: center;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
 }
